@@ -1,0 +1,4 @@
+#!/bin/sh
+
+if [[ $(aspell list < right.txt) ]]; then
+  echo "Since spelling errors are present, it is recommedned to run\n git command --amend"
